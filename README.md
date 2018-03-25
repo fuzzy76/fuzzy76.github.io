@@ -20,9 +20,9 @@ really don't see any reason to change that for now.
 ## Jekyll-plugins
 
 Relies on the following Jekyll plugins:
-* [jekyll-gist](https://github.com/jekyll/jekyll-gist)*
-* [jekyll-relative-links](https://github.com/benbalter/jekyll-relative-links)*
-* [jekyll-default-layout](https://github.com/benbalter/jekyll-default-layout)*
+* [jekyll-gist](https://github.com/jekyll/jekyll-gist)
+* [jekyll-relative-links](https://github.com/benbalter/jekyll-relative-links)
+* [jekyll-default-layout](https://github.com/benbalter/jekyll-default-layout)
 * [jekyll-titles-from-headings](https://github.com/benbalter/jekyll-titles-from-headings)
 
 Will rely on:

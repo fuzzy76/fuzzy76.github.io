@@ -1,4 +1,7 @@
 
+div#outer {
+    width: 65em;
+}
 
 div#content div.jumbotron {
     padding-top: 1em;

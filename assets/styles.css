@@ -1,6 +1,11 @@
 
 div#outer {
-    width: 75em;
+    max-width: 75em;
+}
+
+div#outer > div {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 div#content div.jumbotron {

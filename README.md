@@ -32,6 +32,10 @@ related to the discourse within Norway. There are also some hidden blog posts
 mostly because I didn't want to delete my ancient "dear diary" posts, but didn't
 see any reason to list them.
 
+## Configuration specifics
+
+The excerpt separator is set to "&lt;--more--&gt;" for compatibility reasons.
+
 ## Jekyll-plugins
 
 Relies on the following Jekyll plugins:

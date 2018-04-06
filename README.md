@@ -32,6 +32,12 @@ related to the discourse within Norway. There are also some hidden blog posts
 mostly because I didn't want to delete my ancient "dear diary" posts, but didn't
 see any reason to list them.
 
+Unfortunately the index pages are not paginated because the builtin pagination
+support in Jekyll isn't able to paginate across categories (which I use to
+separate the blog sections). This can hopefully be fixed once
+[https://github.com/sverrirs/jekyll-paginate-v2](jekyll-paginate-v2) is moved
+into Jekyll core and deployed on GitHub pages.
+
 ## Configuration specifics
 
 The excerpt separator is set to "&lt;--more--&gt;" for compatibility reasons.

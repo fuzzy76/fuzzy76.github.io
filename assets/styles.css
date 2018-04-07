@@ -1,4 +1,8 @@
 
+html {
+    font-size: 1.6rem;
+  }
+
 div#outer {
     max-width: 75em;
 }

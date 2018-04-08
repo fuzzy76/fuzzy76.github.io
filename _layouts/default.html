@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" />
+        <link rel="openid2.local_id" href="http://www.google.com/profiles/haavard.pedersen" />
+        <link rel="alternate" type="application/atom+xml" title="Atom feed" href="http://fuzzy76.net/feed/" />
+        <!-- Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.0.0/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-jb1k1ntK2AaXuVTIiFXgcGvjcWQrYlrsxipJRLPdwnr1sHBRqSLowOD2q3dIL5KG" crossorigin="anonymous">
+        <link href="{{ "/assets/styles.css" | absolute_url }}" rel="stylesheet" />
+        <title>{{ page.title }}</title>
+        {% seo %}
+    </head>
+    <body>
+        <div id="outer" class="container">
+            <div id="header" class="container"><div id="sitename" class="text-center h1"><a href="/">Håvard Pedersen</a></div>
+                <ul class="nav nav-pills justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link{% if page.categories contains "Norsk" %} active{% endif %}" href="/norsk/">
+                            Norsk<br /><small>(mest meninger og politikk)</small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link{% if page.categories contains "English" %} active{% endif %}" href="/english/">
+                            English<br /><small>(mostly technical stuff)</small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="/posts/">
+                            <small>Alle poster</small>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="content" class="container">
+            {{ content }}
+            </div>
+            <div id="footer" class="container text-center">
+                <form action="/sok/"><input name="q" type="search" placeholder="Søk i nettstedet" /></form>
+                Powered by <a href="https://github.com/fuzzy76/fuzzy76.github.io/">GitHub Pages</a>.
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    </body>
+</html>
+
+
+
+

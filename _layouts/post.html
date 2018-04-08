@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<h1>{{ page.title }} <small class="text-muted">{{ page.date | date: "%e.%m.%y" }}</small></h1>
+{{ content }}
+<hr />
+<div>
+    <a class="btn btn-primary" target="_blank" title="Del på Twitter" href="http://twitter.com/share"><i class="fab fa-twitter"></i></a>
+    <a class="btn btn-primary" target="_blank" title="Del på Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}"><i class="fab fa-facebook-f"></i></a>
+    <a class="btn btn-primary" target="_blank" title="Del på LinkedIn" href="https://www.linkedin.com/shareArticle?url={{ page.url | absolute_url }}&mini=true"><i class="fab fa-linkedin-in"></i></a>
+</div>
+<hr />
+<!-- Should probably do a flag thing to disable comments -->
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+var disqus_developer = 1; // @TODO Comment out when the site is live
+var disqus_config = function () {
+this.page.url = 'http://fuzzy76.net{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
+{% if page.wpid %}
+    this.page.identifier = '{{ page.wpid }} {{ page.guid }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+{% else %}
+    this.page.identifier = '{{ page.id }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+{% endif %}
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://fuzzy76.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

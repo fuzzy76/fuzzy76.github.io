@@ -1,0 +1,27 @@
+---
+layout: page
+---
+
+{% for post in site.categories[page.category] %}
+    {% if post.hidden != "true" %}
+        {% if forloop.index < 5 %}
+            <h2>
+                <a href="{{ post.url | absolute_url }}">{{ post.title }}
+                <small class="text-muted">{{ post.date | date: "%e.%m.%y" }}</small>
+            </a>
+            </h2>
+            <p>
+                {% if post.content contains site.excerpt_separator %}
+                    {{ post.excerpt }}
+                {% else %}
+                    {{ post.content | markdownify | strip_html | truncatewords: 50 }}
+                {% endif %}            
+            </p>
+        {% else %}
+            <h2 class="h3">
+                <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+                <small class="text-muted">{{ post.date | date: "%e.%m.%y" }}</small>                    
+            </h2>
+        {% endif %}
+    {% endif %}
+{% endfor %}

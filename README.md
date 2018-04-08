@@ -66,3 +66,36 @@ Relies on the following Jekyll plugins:
 
 Might be handy:
 * [jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from)
+
+## Validation concerns
+Validated as of 08.04.2018.
+
+### HTML
+
+I won't declare language, since this site mixes norwegian and english. This is
+allowed, just not recommended.
+
+###  CSS
+
+Bootstrap 4 creates a lot of errors warnings. Their priority is compatibility
+over standard compliance – fair enough.
+
+### Bootlint
+
+Bootlint is not Bootstrap 4 compatible yet. As far as I could tell, everything
+it reported was because of that.
+
+### Feed
+
+The Atom feed apparently reports wrong language code. Since my site is mixed
+language and the functionality is from a third party plugin, it's not a
+priority.
+
+### OpenGraph
+
+OpenGraph seems to validate.
+
+### Sitemap
+
+Sitemap seems to validate.
+

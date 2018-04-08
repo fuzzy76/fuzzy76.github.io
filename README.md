@@ -13,6 +13,17 @@ This is a work in progress. I'll finish theme, plugins and content in that order
 * [Font Awesome](https://fontawesome.com)
 * [Disqus](https://help.disqus.com/customer/portal/articles/1104788-web-integration)
 
+## Features
+
+* Responsive design
+* Opengraph tags
+* RSS-feed
+* Sitemap
+* Robots.txt
+* Search
+* OpenID2 provider link
+* Google Analytics
+
 ## License
 
 I'm not licensing this out in any way. It's open source, but still mine. I

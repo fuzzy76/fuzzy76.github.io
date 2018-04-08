@@ -1,18 +1,24 @@
 
-html {
-    font-size: 1.5rem;
-  }
-
 div#outer {
-    max-width: 50em;
+    max-width: 45rem;
 }
 
+
 div#outer > div {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 div#content div.jumbotron {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: black;
+}
+
+div#header div#sitename a {
+    color:black;
+    text-decoration: none;
 }

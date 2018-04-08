@@ -2,6 +2,7 @@ timezone: Europe/Oslo
 excerpt_separator: "<!--more-->"
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
 title: Håvard Pedersen
 description: Hjemmeside og blogg for Håvard Pedersen
 url: http://fuzzy76.net
@@ -19,3 +20,5 @@ social:
     - https://www.goodreads.com/user/show/70089200-h-vard-pedersen
 google_site_verification: 1234
 lang: nb_NO
+feed:
+  path: feed/index.xml

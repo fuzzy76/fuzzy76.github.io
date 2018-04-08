@@ -1,3 +1,21 @@
 timezone: Europe/Oslo
 excerpt_separator: "<!--more-->"
+plugins:
+  - jekyll-seo-tag
+title: Håvard Pedersen
+description: Hjemmeside og blogg for Håvard Pedersen
 url: http://fuzzy76.net
+author: Håvard Pedersen
+twitter:
+  username: fuzzy76
+social:
+  name: Håvard Pedersen
+  links:
+    - https://twitter.com/fuzzy76
+    - https://www.facebook.com/fuzzy76
+    - https://www.linkedin.com/in/haavardp/
+    - https://www.strava.com/athletes/6902791
+    - https://github.com/fuzzy76
+    - https://www.goodreads.com/user/show/70089200-h-vard-pedersen
+google_site_verification: 1234
+lang: nb_NO

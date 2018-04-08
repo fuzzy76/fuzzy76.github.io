@@ -3,6 +3,13 @@ layout: default
 ---
 <h1>{{ page.title }} <small class="text-muted">{{ page.date | date: "%e.%m.%y" }}</small></h1>
 {{ content }}
+<hr />
+<div>
+    <a class="btn btn-primary" target="_blank" title="Del på Twitter" href="http://twitter.com/share"><i class="fab fa-twitter"></i></a>
+    <a class="btn btn-primary" target="_blank" title="Del på Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}"><i class="fab fa-facebook-f"></i></a>
+    <a class="btn btn-primary" target="_blank" title="Del på LinkedIn" href="https://www.linkedin.com/shareArticle?url={{ page.url | absolute_url }}&mini=true"><i class="fab fa-linkedin-in"></i></a>
+</div>
+<hr />
 <!-- Should probably do a flag thing to disable comments -->
 <div id="disqus_thread"></div>
 <script>

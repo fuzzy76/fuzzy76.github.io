@@ -3,6 +3,7 @@ excerpt_separator: "<!--more-->"
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-sitemap
 title: Håvard Pedersen
 description: Hjemmeside og blogg for Håvard Pedersen
 url: http://fuzzy76.net

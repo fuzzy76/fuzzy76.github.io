@@ -60,10 +60,8 @@ Relies on the following Jekyll plugins:
 * [jekyll-relative-links](https://github.com/benbalter/jekyll-relative-links)
 * [jekyll-default-layout](https://github.com/benbalter/jekyll-default-layout)
 * [jekyll-titles-from-headings](https://github.com/benbalter/jekyll-titles-from-headings)
-
-Will rely on:
-* [jekyll-feed](https://github.com/jekyll/jekyll-feed)
 * [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+* [jekyll-feed](https://github.com/jekyll/jekyll-feed)
 * [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)
 
 Might be handy:

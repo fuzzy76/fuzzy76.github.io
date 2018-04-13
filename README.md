@@ -23,6 +23,7 @@ This is a work in progress. I'll finish theme, plugins and content in that order
 * Search
 * OpenID2 provider link
 * Google Analytics
+* Favicons in way too many variants
 
 ## License
 

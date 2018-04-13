@@ -3,7 +3,6 @@ div#outer {
     max-width: 45rem;
 }
 
-
 div#outer > div {
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -16,6 +15,30 @@ div#content div.jumbotron {
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: black;
+}
+
+h1, .h1 {
+    font-size: 2.3rem;
+}
+
+h2, .h2 {
+    font-size: 2rem;
+}
+
+h3, .h3 {
+    font-size: 1.6rem
+}
+
+h4, .h4 {
+    font-size: 1.4rem
+}
+
+h5, .h5 {
+    font-size: 1.1rem
+}
+
+h6, .h6 {
+    font-size: 0.9rem
 }
 
 div#header div#sitename a {

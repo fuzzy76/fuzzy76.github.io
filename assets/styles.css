@@ -45,3 +45,7 @@ div#header div#sitename a {
     color:black;
     text-decoration: none;
 }
+
+div#content a {
+    text-decoration: underline;
+}

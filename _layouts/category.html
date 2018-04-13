@@ -15,7 +15,8 @@ layout: page
                     {{ post.excerpt }}
                 {% else %}
                     {{ post.content | markdownify | strip_html | truncatewords: 50 }}
-                {% endif %}            
+                {% endif %}
+                <a class="btn btn-outline-primary btn-sm" href="{{ post.url }}" role="button">Les mer</a>
             </p>
         {% else %}
             <h2 class="h3">

@@ -9,8 +9,6 @@ permalink: /250/a-gameserver-ping-plugin-for-munin/
 dsq_thread_id:
   - "6089092207"
 categories:
-  - PHP
-  - Sysadmin
   - English
 ---
 My personal server has been acting up lately, to be precise; the Call of Duty (1) gameserver that runs on it. I installed [Munin](http://munin-monitoring.org/) for monitoring it, but really wanted something that would show the actual slowdown the players experienced.

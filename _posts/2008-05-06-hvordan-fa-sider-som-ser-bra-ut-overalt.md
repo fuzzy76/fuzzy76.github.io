@@ -9,7 +9,7 @@ permalink: /163/hvordan-fa-sider-som-ser-bra-ut-overalt/
 dsq_thread_id:
   - "6089091748"
 categories:
-  - English
+  - Norsk
 ---
 Veldig ofte ser jeg at forumer oversvømmes av nettsideproblemer som jeg finner ut av i løpet av sekunder på ren automatikk. Det slo meg at noen bør ta til orde for litt hjelp til selvhjelp på dette området. Så her har jeg samlet mine triks for problemfrie websider.
 

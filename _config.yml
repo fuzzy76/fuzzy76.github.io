@@ -23,3 +23,10 @@ google_site_verification: 1234
 lang: nb_NO
 feed:
   path: feed/index.xml
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /:year/:month/:slug/

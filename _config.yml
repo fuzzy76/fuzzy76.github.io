@@ -8,6 +8,7 @@ title: Håvard Pedersen
 description: Hjemmeside og blogg for Håvard Pedersen
 url: http://fuzzy76.net
 author: Håvard Pedersen
+logo: /apple-touch-icon.png
 twitter:
   username: fuzzy76
 social:
@@ -30,3 +31,8 @@ defaults:
       type: "posts"
     values:
       permalink: /:year/:month/:slug/
+  -
+    scope:
+      path: ""
+    values:
+      image: /apple-touch-icon.png

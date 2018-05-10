@@ -2,7 +2,7 @@
 layout: default
 ---
 <h1>{{ page.title }} <small class="text-muted">{{ page.date | date: "%e.%m.%y" }}</small></h1>
-{{ content }}
+{{ content | replace: "<blockquote>", "<blockquote class='blockquote'>" }}
 <hr />
 <div>
     <a class="btn btn-primary" target="_blank" title="Del på Twitter" href="http://twitter.com/share"><i class="fab fa-twitter"></i></a>

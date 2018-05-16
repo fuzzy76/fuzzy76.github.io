@@ -86,7 +86,7 @@ So one of the first things I did (actually before I received my black new-model 
 :   A small netradio app. Handles a lot more types of streams than iTunes.
 
 [Google Chrome](http://www.google.com/chrome)
-:   This is _the_ best browser, bar none. In the time Firefox uses just to launch, Chrome lets me launch, perform a search, visit the first hit and read it. I have also written a [norwegian post with my favorite extensions](http://fuzzy76.net/340/mine-chrome-utvidelser/).
+:   This is _the_ best browser, bar none. In the time Firefox uses just to launch, Chrome lets me launch, perform a search, visit the first hit and read it. I have also written a [norwegian post with my favorite extensions](/340/mine-chrome-utvidelser/).
 
 [Growl](http://growl.info/)
 :   Gives youy nice bubble notifications from a lot of programs. Very configurable and very pretty. :) Make sure you also install the extra utilities, like HardwareGrowler to get instant statusnotifications on USB devices, network connections and so on.

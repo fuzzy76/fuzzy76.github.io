@@ -43,7 +43,7 @@ Mange nybegynnere blir fort veldig oppgitte over maset fra &#8220;nerdene&#8221;
 
 Hvis HTML-standarden beskriver hvordan nettlesere skal tolke HTML-dokumenter, og du lager et dokument som ikke bygger på hvordan HTML-standarden er bygget opp&#8230; Hva skal nettleserene gjøre? De har altså fått et dokument som de rett og slett ikke **vet** hvordan skal vises, fordi det ikke er beskrevet i standarden. De må altså _gjette_ på hvordan dokumentet skal vises. Bør noen bli overrasket over at nettleserene gjetter forskjellig? Neppe. Nettleserprodusenter har nok å gjøre med å følge standardene. Ugyldig kode blir overlatt til seg selv.
 
-Validering sørger også for at feilsøking blir mye enklere, og utelukker veldig mange potensielle fallgruver. Vil du lese litt mer argumentasjon på området [har jeg oversatt en engelsk artikkel om temaet tidligere](http://fuzzy76.net/150/hvorfor-vi-ikke-hjelper-deg/). Det første jeg gjør når jeg opplever layout-bugs på mine egne sider er å validere.
+Validering sørger også for at feilsøking blir mye enklere, og utelukker veldig mange potensielle fallgruver. Vil du lese litt mer argumentasjon på området [har jeg oversatt en engelsk artikkel om temaet tidligere](/150/hvorfor-vi-ikke-hjelper-deg/). Det første jeg gjør når jeg opplever layout-bugs på mine egne sider er å validere.
 
 ## Verktøy
 
@@ -55,4 +55,4 @@ Men av og til ender man opp med ting man rett og slett ikke forstår seg på. De
 
 Men om du har lest gjennom hele denne artikkelen skjønner du kanskje at det nesten er umulig å debugge en layout ut fra 4 linjer fra CSS-fila di. Skal jeg debugge en layout for noen vil jeg kunne undersøke sida med et av utviklerverktøyene i forrige avsnitt, og da er det kun live kode som gjelder. Last opp sida, og post en link. Hvis du virkelig ikke har lyst til å offentliggjøre siden din, kan du også prøve å redusere problemet ditt til et forenklet eksempel. Det kan også gjøre at du oppdager en løsning du ikke hadde tenkt på.
 
-Men jeg (og mange med meg) er med i mange forumer. Og folk som vet hvordan HTML og CSS skal settes sammen har mye å gjøre. Hvis du ikke har gidda å gjøre din del (følge avsnittene over og prøve å finne ut av det selv, inkludert validering), er sjansen stor for at vi heller ikke orker å bruke tid på det. Se forøvrig siste del av [hvorfor vi ikke hjelper deg](http://fuzzy76.net/150/hvorfor-vi-ikke-hjelper-deg/).
+Men jeg (og mange med meg) er med i mange forumer. Og folk som vet hvordan HTML og CSS skal settes sammen har mye å gjøre. Hvis du ikke har gidda å gjøre din del (følge avsnittene over og prøve å finne ut av det selv, inkludert validering), er sjansen stor for at vi heller ikke orker å bruke tid på det. Se forøvrig siste del av [hvorfor vi ikke hjelper deg](/150/hvorfor-vi-ikke-hjelper-deg/).

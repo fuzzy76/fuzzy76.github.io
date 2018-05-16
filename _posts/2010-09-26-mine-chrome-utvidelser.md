@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Norsk
 ---
-I tråd med mitt tidligere innlegg om [gratis programvare for Mac](http://fuzzy76.net/146/the-essential-mac-os-x-freeware-list/) presenterer jeg her en liste over mine favoritt-utvidelser for Chrome.
+I tråd med mitt tidligere innlegg om [gratis programvare for Mac](/146/the-essential-mac-os-x-freeware-list/) presenterer jeg her en liste over mine favoritt-utvidelser for Chrome.
   
 <!--more-->
 

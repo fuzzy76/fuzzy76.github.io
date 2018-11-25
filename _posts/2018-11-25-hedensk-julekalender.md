@@ -4,7 +4,7 @@ categories:
   - Norsk
 ---
 
-Til jul i fjor laget jeg et prosjekt jeg kalte "Hedensk Julekalender".
+<img class="rounded float-right" alt="Illustrasjonsbilde" src="{{ "/wp-content/uploads/2018/11/hedensk_julekalender.jpg"}}" />Til jul i fjor laget jeg et prosjekt jeg kalte "Hedensk Julekalender".
 Prosjektet besto av en [Facebook-side](https://www.facebook.com/hedenskjul/) og
 en [Twitter-konto](https://twitter.com/hedenskjul) hvor jeg hver dag fra 1. til 24.
 desember postet en juletradisjon som ikke hadde opphav i den kristne

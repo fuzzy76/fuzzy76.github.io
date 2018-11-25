@@ -1,5 +1,6 @@
 ---
 title: Hedensk julekalender
+image: /wp-content/uploads/2018/11/hedensk_julekalender.jpg
 categories:
   - Norsk
 ---
